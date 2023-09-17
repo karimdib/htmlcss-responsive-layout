@@ -1,0 +1,140 @@
+@media  screen and  (max-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+
+    .navbar-items{
+        display: none;
+    }
+
+    #hamburger{
+        display: block;
+        font-size: 24px;
+    }
+
+    .border{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo{
+        display: block;
+        position: relative;
+    }
+
+    .flex-column{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .phone {
+        bottom: -25px;
+    }
+
+    .col-height{
+        height: calc(100% - 20px);
+        justify-content: flex-start;
+    }
+
+    .planning-paragraph > h3 {
+        font-size: 40px;
+    }
+    
+    .benefits-col{
+        flex-basis: calc((100% / 12) * 6);
+    }
+    
+    .about-us-col-one{
+        flex-basis: calc((100% / 12) * 6);
+    }
+    .about-us-col-second{
+        flex-basis: calc((100% / 12) * 6);
+    }
+
+    .col-3{
+        flex-basis:calc((100% / 12 ) * 4) ;
+        display: inline-block;
+        
+    }
+
+    .col-9{
+        flex-basis:calc((100% / 12 ) * 8) ;
+        display: inline-block;
+    }
+
+    .img-relative {
+        position: relative;
+    }
+
+    .entity-marks{
+        right: 130px;
+    }
+
+    .cioa{
+        max-width: 400px;
+        text-align: center;
+    }
+
+    @keyframes phone-up{
+        0%{
+            
+            bottom: 50px;
+        }
+        100%{
+            
+            bottom: -25px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .container{
+        max-width: 480px;
+
+    }
+
+    .navbar-items{
+        display: none;
+    }
+
+    #hamburger{
+        display: block;
+        font-size: 24px;
+    }
+
+    .col-8{
+        flex-basis: calc((100% / 12) * 12);
+    }
+
+    .col-4{
+        flex-basis: calc((100% / 12) * 12);
+    }
+    .col-9{
+        flex-basis: calc((100% / 12) * 12);
+    }
+    .col-3{
+        flex-basis: calc((100% / 12) * 12);
+    }
+
+    .entity-marks{
+        right: 200px;
+    }
+
+    .phone{
+        right: -20%;
+    }
+
+    .purple{
+        padding: 10px 10px;
+
+    }
+
+    .cioa{
+        padding: 0px 15px;
+    }
+    .aside p {
+        text-align: center;
+        max-width: 100%;
+        padding: 20px 10px;
+    }    
+}
