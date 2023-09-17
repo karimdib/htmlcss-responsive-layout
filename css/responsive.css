@@ -16,6 +16,13 @@
         display: flex;
         flex-direction: column;
     }
+
+    .partners{
+        flex-direction:row;
+    }
+    .pd-partners-p{
+        padding: 0 15px;
+    }
     .photo{
         display: block;
         position: relative;
@@ -52,13 +59,13 @@
 
     .col-3{
         flex-basis:calc((100% / 12 ) * 4) ;
-        display: inline-block;
+        
         
     }
 
     .col-9{
         flex-basis:calc((100% / 12 ) * 8) ;
-        display: inline-block;
+        
     }
 
     .img-relative {
@@ -91,6 +98,13 @@
     .container{
         max-width: 480px;
 
+    }
+
+    .border{
+        flex-direction: column;
+    }
+    .pd-partners-p{
+        text-align: center;
     }
 
     .navbar-items{
@@ -131,6 +145,7 @@
 
     .cioa{
         padding: 0px 15px;
+        
     }
     .aside p {
         text-align: center;
