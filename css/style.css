@@ -532,7 +532,7 @@ footer{
 
 .cell{
     animation-name: phone-up;
-    animation-duration: 2s;
+    animation-duration: 3.5s;
     animation-iteration-count: linear;
 }
 
@@ -547,3 +547,15 @@ footer{
     }
 }
 
+.col-animation {
+    animation: col-block 3s linear;
+}
+
+@keyframes col-block {
+    from{
+        margin-left: -50px;
+    }
+    to{
+        margin-left: 0;
+    }
+}
