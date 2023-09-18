@@ -16,11 +16,10 @@ menu {
 
 }
 
-
-
 img {
     width: 100%;
 }
+
 p{
     line-height: 30px;
 }
@@ -39,7 +38,6 @@ a {
     --yellow:#FDC15F;
     --dark-grey:#333333;
     --light:#FFFFFF;
-
 }
 /* layouts */
 
@@ -104,13 +102,14 @@ a {
 .justify-between {
     justify-content: space-between;
 }
+
 .jusitfy-center{
     justify-content: center;
 }
+
 .align-items-center {
     align-items: center;
 }
-
 
 /* component classes */
 
@@ -125,6 +124,7 @@ a {
 }
 
 /* header */
+
 .page-header {
     background-color: var(--blue);
     color: var(--light);
@@ -137,6 +137,9 @@ a {
     align-items: center;
 }
 
+#hamburger{
+    display: none;
+}
 
 /* debug */
 
@@ -144,13 +147,7 @@ a {
     padding: 10px;
 }
 
-
-/*header*/
-
-#hamburger{
-    display: none;
-}
-
+/*hero sezione*/
 
 .button-blue{
     color: var(--light);
@@ -188,17 +185,13 @@ a {
     max-width: 750px;
 }
 
-
 .phone{
     max-width: 220px;
     padding: 0px;
     position: relative;
     bottom: -45px;
-    right: 20px;
-   
+    right: 20px;  
 }
-
-
 
 .text-center{
     text-align: center;
@@ -219,23 +212,20 @@ a {
     align-items: center;
 }
 
-/*hero sezione*/
 .hero{
     padding: 40px 0;
 }
 
-.first-section{
-    background-color: var(--purple);
-}
+/*prima sezione*/
 
 .bg-planning{
     background-color: var(--light);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;    
 }
+
 .bg-planning > img{
     width: 50%;
     padding-top: 20px;
@@ -281,17 +271,20 @@ a {
     font-size: 20px;
     margin: 20px 0;
     color: black;
-    
+}
+
+.first-section{
+    padding: 40px 0;
+    background-color: var(--purple);
 }
 
 /*prima sezione*/
 
-.first-section{
-    padding: 40px 0;
-}
+/*seconda sezione*/
 
 .second-section{
     margin-top: 20px;
+    padding: 40px 0;
 }
 
 .second-paragraph{
@@ -307,15 +300,11 @@ a {
     color: var(--purple);    
     font-size: 30px;
 }
-/*seconda sezione*/
-.second-section{
-    padding: 40px 0;
-}
+
 .purple{
     background-color: var(--purple);
     min-height: 200px;
 }
-
 
 .col-2 img{
     border-radius: 50%;
@@ -334,10 +323,10 @@ a {
     color: var(--light);
 }
 
-
 .col-10 h3{
     padding: 10px 0;
 }
+
 .pd-partners-p{
     padding: 0 10px;
 }
@@ -346,6 +335,7 @@ a {
 .thirth-section{
     padding: 40px 0;
 }
+
 .white{
     background-color: var(--light);
     padding: 20px;
@@ -367,8 +357,7 @@ a {
     color: var(--purple);
 }
 
-.number{
-    
+.number{    
     font-size: 50px;
     font-weight: 600;
     padding: 15px 0;
@@ -387,13 +376,12 @@ a {
 .four-section{
     padding: 40px 0;
 }
+
 .five-paragraph h2 {
     font-size: 40px;
     padding: 10px;
     color: var(--purple);
 }
-
-
 
 .five-paragraph > p{
     padding: 30px 10px;
@@ -444,6 +432,7 @@ a {
 .img-relative{
     position: relative;
 }
+
 .entity-marks{
     color: var(--purple);
     position: absolute;
@@ -453,6 +442,7 @@ a {
 }
 
 /*quinta sezione*/
+
 .five-section{
     padding: 40px 0;
 }
@@ -483,7 +473,6 @@ a {
     font-size: 70px;
 }
 
-
 .button-white {
     color:var(--purple);
     line-height: 40px;
@@ -493,13 +482,11 @@ a {
     padding: 5px 50px;
 }
 
-.cioa{
+.paragraph-five-section{
     text-align: center;
 }
 
-
 /*footer*/
-
 
 footer{
     background-color: var(--dark-grey);
@@ -523,6 +510,7 @@ footer{
     color: var(--purple);
     text-decoration: underline;
 }
+
 /*animazioni*/
 
 .animation{
