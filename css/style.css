@@ -363,7 +363,7 @@ a {
     padding: 15px 0;
 }
 
-#button-benefits{
+.button-benefits{
     color: var(--light);
     background-color: var(--purple);
     padding: 5px 40px;
