@@ -319,8 +319,9 @@ a {
 
 .col-2 img{
     border-radius: 50%;
-    width: 157px;
-    height: 150px;
+    aspect-ratio: 1;
+    object-fit:cover;
+    width:180px ;
     margin-right: 0px;
     margin-left: 10px;
 }
