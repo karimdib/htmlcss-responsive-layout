@@ -97,6 +97,15 @@ a {
     flex-basis: calc((100% / 12) * 12);
 }
 
+
+.about-us-col-one {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.about-us-col-second {
+    flex-basis: calc((100% / 12) * 4);
+}
+
 /* utility classes */
 
 .justify-between {
